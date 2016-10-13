@@ -1,0 +1,5 @@
+---
+applications:
+- name: default-app-dotnet
+  memory: 64M
+  buildpack: https://github.com/cloudfoundry-community/dotnet-core-buildpack.git
