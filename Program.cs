@@ -3,7 +3,7 @@ using System.Reflection;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 
-namespace CfDefaultAppDotNet
+namespace CfDefaultAppDotNetCore
 {
     public class Program
     {

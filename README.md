@@ -1,8 +1,8 @@
-# CF Default App .NET
+# CF Default App .NET Core
 
-The default .NET app that will be pushed in the Swisscom Application Cloud if no source code is provided
+The default .NET Core app that will be pushed in the Swisscom Application Cloud if no source code is provided
 
-Based on [ASP.NET](https://www.asp.net/)
+Based on [ASP.NET Core](https://www.asp.net/core)
 
 ## Run locally
 
