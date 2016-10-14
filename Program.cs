@@ -15,7 +15,6 @@ namespace CfDefaultAppDotNetCore
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
-                .UseIISIntegration()
                 .UseConfiguration(config)
                 .UseStartup<Startup>()
                 .Build();
