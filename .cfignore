@@ -1,4 +1,5 @@
 bin
 obj
+dotnetcore_app.zip
 project.lock.json
 README.md
