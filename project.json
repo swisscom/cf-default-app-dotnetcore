@@ -2,7 +2,15 @@
   "buildOptions": {
     "preserveCompilationContext": true,
     "emitEntryPoint": true,
-    "debugType": "portable"
+    "debugType": "portable",
+    "copyToOutput": {
+      "include": [
+        "wwwroot",
+        "Areas/**/Views",
+        "Views",
+        "appsettings.json"
+      ]
+    }
   },
   "publishOptions": {
     "include": [
@@ -13,9 +21,9 @@
   "dependencies": {
     "Microsoft.AspNetCore.Diagnostics": "1.0.0",
     "Microsoft.AspNetCore.Mvc": "1.0.1",
-    "Microsoft.Extensions.Configuration.CommandLine": "1.0.0",
     "Microsoft.AspNetCore.Server.Kestrel": "1.0.1",
     "Microsoft.AspNetCore.StaticFiles": "1.0.0",
+    "Microsoft.Extensions.Configuration.CommandLine": "1.0.0",
     "Microsoft.Extensions.Logging.Console": "1.0.0",
     "Microsoft.NETCore.App": {
       "type": "platform",
