@@ -19,4 +19,4 @@ Based on [ASP.NET Core](https://www.asp.net/core)
 
 ## Create ZIP
 
-1. Run `zip -r dotnetcore_app.zip Controllers Views wwwroot Program.cs project.json Startup.cs`
+1. Run `zip -r dotnetcore_app.zip Controllers Views wwwroot Program.cs project.json Startup.cs cf-default-app-dotnetcore.csproj`
