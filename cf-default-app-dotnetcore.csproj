@@ -1,13 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
     <DebugType>portable</DebugType>
     <PreserveCompilationContext>true</PreserveCompilationContext>
     <AssemblyName>cf-default-app-dotnetcore</AssemblyName>
     <OutputType>Exe</OutputType>
     <PackageId>cf-default-app-dotnetcore</PackageId>
-    <RuntimeFrameworkVersion>2.0.7</RuntimeFrameworkVersion>
+    <RuntimeFrameworkVersion>2.1.16</RuntimeFrameworkVersion>
   </PropertyGroup>
 
   <ItemGroup>
