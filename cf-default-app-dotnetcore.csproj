@@ -7,7 +7,7 @@
     <AssemblyName>cf-default-app-dotnetcore</AssemblyName>
     <OutputType>Exe</OutputType>
     <PackageId>cf-default-app-dotnetcore</PackageId>
-    <RuntimeFrameworkVersion>2.1.16</RuntimeFrameworkVersion>
+    <RuntimeFrameworkVersion>2.1.18</RuntimeFrameworkVersion>
   </PropertyGroup>
 
   <ItemGroup>
